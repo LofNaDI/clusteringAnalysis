@@ -14,9 +14,6 @@ else
   error('type of clustering has to be either Kmeans or Kmedians');
 end
 
-% to control the time of the analysis
-timeId=tic;
-
 % parameters
 numberOfRepeats=500;      % number of realizations
 numOfReplicates=50;       % number of replicates
@@ -165,12 +162,3 @@ for numClusters=numC
 
     labels(ind,:)=cluster2label(clustFilt(ind,:),nrow);
 end
-
-% total elapsed time in the analysis
-elapsedTime=toc(timeId);
-
-elapsedTimeHours=floor(elapsedTime/3600);
-elapsedTimeMinuts=floor(mod(elapsedTime,3600)/60);
-elapsedTimeSeconds=mod(mod(elapsedTime,3600),60);
-
-fprintf('\n>>>> total time = %d hours, %d minuts, %.3f seconds\n\n', elapsedTimeHours,elapsedTimeMinuts,elapsedTimeSeconds);

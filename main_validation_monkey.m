@@ -3,6 +3,9 @@ clear;
 close all;
 clc;
 
+% to control the time of the analysis
+timeId=tic;
+
 numRand = 200;
 figsdir = 'validationAnalysis';
 
@@ -138,3 +141,12 @@ set(gca,'XTickLabel',{'B1','B2','B3','B4','N1','N2','N4'})
 set(gca,'fontSize',16,'LineWidth',1,'TickDir','out','Box','off')
 filename=[figsdir,'/diffDistanceBetweenClusters_monkeys.svg'];
 plot2svg(filename);
+
+% total elapsed time in the analysis
+elapsedTime=toc(timeId);
+
+elapsedTimeHours=floor(elapsedTime/3600);
+elapsedTimeMinuts=floor(mod(elapsedTime,3600)/60);
+elapsedTimeSeconds=mod(mod(elapsedTime,3600),60);
+
+fprintf('\n>>>> total time = %d hours, %d minuts, %.3f seconds\n\n', elapsedTimeHours,elapsedTimeMinuts,elapsedTimeSeconds);

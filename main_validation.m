@@ -172,4 +172,3 @@ elapsedTimeMinuts=floor(mod(elapsedTime,3600)/60);
 elapsedTimeSeconds=mod(mod(elapsedTime,3600),60);
 
 fprintf('\n>>>> total time = %d hours, %d minuts, %.3f seconds\n\n', elapsedTimeHours,elapsedTimeMinuts,elapsedTimeSeconds);
-

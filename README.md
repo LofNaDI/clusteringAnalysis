@@ -12,4 +12,6 @@ Should you find the toolbox interesting, please try it in your data. Just ensure
 
 > \- [https://bitbucket.org/sardid/clusteringanalysis](https://bitbucket.org/sardid/clusteringmanalysis)
 
+Instructions on how to use the repository will be added shortly.
+
 Copyright (C) 2014, Salva Ardid.

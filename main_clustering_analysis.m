@@ -3,7 +3,7 @@ clc;
 clear;
 close all;
 
-%%%% This is work in progress to ease the use of the Clustering Analysis Toolbox and make it compatible for Matlab and GNU Octave %%%%
+%%%% This is work in progress to ease the use of the Clustering Analysis Toolbox and make it compatible with Matlab and GNU Octave %%%%
 
 % Import data (dataSamples x dataVariables):
 

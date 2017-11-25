@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg preserveAspectRatio="xMinYMin meet" width="100%" height="100%" viewBox="0 0 597.333 448.000"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <desc>Matlab Figure Converted by PLOT2SVG written by Juerg Schwizer</desc>
+  <g id="topgroup">
+  <g id ="ID000000">
+  <clipPath id="ID000001">
+    <rect x="77.653" y="33.600" width="462.933" height="365.120"/>
+  </clipPath>
+      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="2.0pt" stroke-opacity="1.00" stroke-dasharray="none" points="77.653,398.720 540.587,398.720 540.587,33.600 77.653,33.600 "/>
+      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="2.0pt" stroke-opacity="1.00" stroke-dasharray="none" points="77.653,33.600 540.587,33.600 540.587,33.600 77.653,33.600 "/>
+      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="2.0pt" stroke-opacity="1.00" stroke-dasharray="none" points="77.653,398.720 77.653,398.720 77.653,33.600 77.653,33.600 "/>
+    <g>
+<g id="ID000002" clip-path="url(#ID000001)" >
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="123.94667,398.72000 123.94667,360.77327 309.12000,360.77327 309.12000,398.72000 "/>
+</g>
+<g id="ID000003" clip-path="url(#ID000001)" >
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="216.53333,360.77327 216.53333,335.90297 494.29333,335.90297 494.29333,398.72000 "/>
+</g>
+<g id="ID000004" clip-path="url(#ID000001)" >
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="2.0pt" stroke-dasharray="8.0,2.0" stroke-opacity="1.00" points="77.65333,362.20800 540.58667,362.20800 "/>
+</g>
+<g id="ID000005" >
+  <g transform="translate(308.587,425.944)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="hanging" font-size="17pt" fill="#000000" ><tspan>Measures</tspan></text>
+    </g>
+  </g>
+</g>
+<g id="ID000006" >
+  <g transform="translate(42.987,217.761)">
+    <g transform="rotate(-90.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-after-edge" font-size="17pt" fill="#000000" ><tspan>Dissimilarity (Spearman correlation)</tspan></text>
+    </g>
+  </g>
+</g>
+<g id="ID000007" >
+</g>
+    </g>
+    <g>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="123.94667,398.72000 123.94667,405.66400 "/>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="309.12000,398.72000 309.12000,405.66400 "/>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="494.29333,398.72000 494.29333,405.66400 "/>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="77.65333,398.72000 540.58667,398.29333 "/>
+  <g transform="translate(123.947,411.499)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="17pt" fill="#000000" ><tspan>pk2trgh</tspan></text>
+    </g>
+  </g>
+  <g transform="translate(309.120,411.499)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="17pt" fill="#000000" ><tspan>1CmpPCA</tspan></text>
+    </g>
+  </g>
+  <g transform="translate(494.293,411.499)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="17pt" fill="#000000" ><tspan>t4rplzn</tspan></text>
+    </g>
+  </g>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="77.65333,398.72000 70.70933,398.72000 "/>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="77.65333,325.69600 70.70933,325.69600 "/>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="77.65333,252.67200 70.70933,252.67200 "/>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="77.65333,179.64800 70.70933,179.64800 "/>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="77.65333,106.62400 70.70933,106.62400 "/>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="77.65333,33.60000 70.70933,33.60000 "/>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="77.65333,398.72000 77.65333,33.17333 "/>
+  <g transform="translate(61.451,398.720)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="17pt" fill="#000000" ><tspan>0</tspan></text>
+    </g>
+  </g>
+  <g transform="translate(61.451,325.696)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="17pt" fill="#000000" ><tspan>0.2</tspan></text>
+    </g>
+  </g>
+  <g transform="translate(61.451,252.672)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="17pt" fill="#000000" ><tspan>0.4</tspan></text>
+    </g>
+  </g>
+  <g transform="translate(61.451,179.648)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="17pt" fill="#000000" ><tspan>0.6</tspan></text>
+    </g>
+  </g>
+  <g transform="translate(61.451,106.624)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="17pt" fill="#000000" ><tspan>0.8</tspan></text>
+    </g>
+  </g>
+  <g transform="translate(61.451,33.600)">
+    <g transform="rotate(-0.0)">
+      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="17pt" fill="#000000" ><tspan>1</tspan></text>
+    </g>
+  </g>
+      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="77.65333,398.72000 77.65333,398.72000 "/>
+    </g>
+  </g>
+  </g>
+</svg>

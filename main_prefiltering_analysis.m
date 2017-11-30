@@ -8,15 +8,7 @@ if ~exist(suffix,'dir')
 end
 
 % Figure settings
-
 set(0,'defaultAxesFontName','Arial');
-set(0,'defaultTextFontName','Arial');
-w = 560;
-h = 420;
-monitors = get(0,'MonitorPositions');
-x = 0.5*(monitors(1,3)-w);
-y = 0.5*(monitors(1,4)-h);
-set(0,'DefaultFigurePosition',[x y w h]);
 resolutionScaling = 96/get(0,'ScreenPixelsPerInch');
 fontSize = 16*resolutionScaling;
 lineWidth = 2*resolutionScaling;
@@ -51,8 +43,8 @@ end
 Z = linkage(ndata','single','spearman');
 cutoff = 0.1; % cutoff: correlation of 0.9
 
-figure % ('color','none') % ,'visible','off')
-% set(gca,'layer','top','color','none')
+figure
+set(gca,'layer','top')
 [h,t,outperm] = dendrogram(Z,'colorthreshold',cutoff,'labels',labels);
 % one way to decide on which measure to keep is the one that is closer to the center in a significant cluster
 if strcmp(reportUI,'matlab')
@@ -98,20 +90,31 @@ normData4Cluster_labels = normData4Cluster_labels(1:indcutoff);
 explainedVar_normData4Cluster = explainedVar_normData(1:indcutoff);
 cumExplainedVar_normData4Cluster = cumsum(explainedVar_normData4Cluster);
 
-width = 1/3;
-figure % ('color','none') % ,'visible','off')
+figure
 hold on
-% set(gca,'layer','top','color','none')
-xbar1 = [1:numel(explainedVar_normData)]-0.5*width;
-h1=bar(xbar1,explainedVar_normData,'lineWidth',lineWidth);
-set(h1,'EdgeColor','k','FaceColor',[0.5 0.5 0.5],'BarWidth',width);
-xbar2 = [1:numel(cumExplainedVar_normData)]+0.5*width;
-h2=bar(xbar2,cumExplainedVar_normData,'lineWidth',lineWidth);
-set(h2,'EdgeColor','k','FaceColor','w','BarWidth',width);
-xlimits = [0.5 numel(explainedVar_normData)+0.5];
-plot(xlimits,[var_cutoff var_cutoff],'r--','lineWidth',lineWidth)
-legend([h1 h2],{'Specific','Cumulative'},'fontSize',fontSize,'Location',[.21,.65,.1,.1]); % left, bottom, width, height
-legend boxoff;
+set(gca,'layer','top')
+if strcmp(reportUI,'matlab') && ~UIverlessthan('8.4.0')
+  width = 1;
+  b = bar([explainedVar_normData;cumExplainedVar_normData]','lineWidth',lineWidth,'EdgeColor','k','BarWidth',width);
+  b(1).FaceColor = 'flat';
+  b(1).CData = 0.5*ones(size(b(1).CData));
+  b(2).FaceColor = 'flat';
+  b(2).CData = ones(size(b(2).CData));
+  xlimits = [0.5 numel(explainedVar_normData)+0.5];
+  plot(xlimits,[var_cutoff var_cutoff],'r--','lineWidth',lineWidth)
+  l = legend(b,{'Specific','Cumulative'},'Box','off','fontSize',fontSize,'Location',[.25,.67,.1,.1]); % left, bottom, width, height
+else
+  width = 1/3;
+  xbar1 = [1:numel(explainedVar_normData)]-0.5*width;
+  b1 = bar(xbar1,explainedVar_normData,'lineWidth',lineWidth);
+  set(b1,'EdgeColor','k','FaceColor',[0.5 0.5 0.5],'BarWidth',width);
+  xbar2 = [1:numel(cumExplainedVar_normData)]+0.5*width;
+  b2 = bar(xbar2,cumExplainedVar_normData,'lineWidth',lineWidth);
+  set(b2,'EdgeColor','k','FaceColor','w','BarWidth',width);
+  xlimits = [0.5 numel(explainedVar_normData)+0.5];
+  plot(xlimits,[var_cutoff var_cutoff],'r--','lineWidth',lineWidth)
+  l = legend([b1,b2],{'Specific','Cumulative'},'Box','off','fontSize',fontSize,'Location',[.25,.67,.1,.1]); % left, bottom, width, height
+end
 axis([xlimits 0 105])
 set(gca,'yTick',0:20:100)
 set(gca,'xTick',1:8)
@@ -119,7 +122,7 @@ set(gca,'fontSize',fontSize,'lineWidth',lineWidth,'TickDir','out','Box','off')
 xlabels = labelsData(indSortedVar_normData);
 set(gca,'XTickLabel',xlabels)
 ylabel('Variance explained (%)','fontSize',fontSize)
-filename=[suffix,'/Datavariance.svg'];
+filename=[suffix,'/dataVariance.svg'];
 plot2svg(filename);
 % close all;
 

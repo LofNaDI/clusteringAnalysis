@@ -33,8 +33,8 @@ elseif strcmp(dataName,'Waveform')
   spikechannelWF = wFpreprocessed.spikechannel;
   spikechannelWF = spikechannelWF(~isnan(wFpreprocessed.parPCA1stcomp));
 
-  dataWF_labels{1} = 'pk2trgh';
-  dataWF_labels{2} = 't4rplzn';
+  dataWF_labels{1} = 'P2T'; % 'pk2trgh';
+  dataWF_labels{2} = 'T4R'; % 't4rplzn';
   dataWF_labels{3} = '1CmpPCA';
 
   data = dataWF;
@@ -106,8 +106,8 @@ elseif strcmp(dataName,'WF+Act')
   spikechannelWF = wFpreprocessed.spikechannel;
   spikechannelWF = spikechannelWF(~isnan(wFpreprocessed.par(:,3)));
 
-  dataWF_labels{1} = 'pk2trgh';
-  dataWF_labels{2} = 't4rplzn';
+  dataWF_labels{1} = 'P2T'; % 'pk2trgh';
+  dataWF_labels{2} = 'T4R'; % 't4rplzn';
 
   %%%% Activity Data (Ardid et al. JNS 2015) %%%%
 

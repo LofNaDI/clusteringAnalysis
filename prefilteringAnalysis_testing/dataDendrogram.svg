@@ -1,140 +1,140 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg preserveAspectRatio="xMinYMin meet" width="100%" height="100%" viewBox="0 0 746.667 560.000"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version = "1.0" encoding = "utf-8" standalone = "no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg preserveAspectRatio = "xMinYMin meet" width = "100%" height = "100%" fill = "#ffffff" viewBox = "0 0 746.667 560.000"  version = "1.1" xmlns = "http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
   <desc>Matlab Figure Converted by PLOT2SVG written by Juerg Schwizer</desc>
-  <g id="topgroup">
-  <rect x="0" y="0" width="746.667" height="560.000" fill="#ffffff" stroke="none" />
-  <g id ="ID000000">
-  <clipPath id="ID000001">
-    <rect x="97.067" y="42.000" width="578.667" height="456.400"/>
+  <g id = "topgroup">
+  <rect x = "0" y = "0" width = "746.667" height = "560.000" fill = "#ffffff" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" />
+  <g id  = "ID000000">
+      <polygon fill = "#ffffff" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-width = "2.667pt" stroke-opacity = "1.000" stroke-dasharray = "none" points = "97.067,498.400 675.733,498.400 675.733,42.000 97.067,42.000 "/>
+      <polygon fill = "#ffffff" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-width = "2.667pt" stroke-opacity = "1.000" stroke-dasharray = "none" points = "97.067,42.000 675.733,42.000 675.733,42.000 97.067,42.000 "/>
+      <polygon fill = "#ffffff" fill-opacity = "1.000" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "none" stroke-width = "2.667pt" stroke-opacity = "1.000" stroke-dasharray = "none" points = "97.067,498.400 97.067,498.400 97.067,42.000 97.067,42.000 "/>
+    <g>
+<g id = "ID000002" >
+  <g transform = "translate(38.924,270.200)">
+    <g transform = "rotate(-90.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "middle" dominant-baseline = "text-after-edge" font-size = "23.467pt" fill = "#262626" ><tspan>Dissimilarity (Spearman correlation)</tspan></text>
+    </g>
+  </g>
+</g>
+<g id = "ID000003" >
+</g>
+<g id = "ID000004" >
+</g>
+<g id = "ID000005" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#000000" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "116.356,498.400 116.356,497.606 193.511,497.606 193.511,498.400 "/>
+</g>
+<g id = "ID000006" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#000000" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "154.933,497.606 154.933,486.458 270.667,486.458 270.667,498.400 "/>
+</g>
+<g id = "ID000007" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#000000" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "347.822,498.400 347.822,397.286 424.978,397.286 424.978,498.400 "/>
+</g>
+<g id = "ID000008" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#000000" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "502.133,498.400 502.133,303.276 579.289,303.276 579.289,498.400 "/>
+</g>
+<g id = "ID000009" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#000000" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "386.400,397.286 386.400,298.537 212.800,298.537 212.800,486.458 "/>
+</g>
+<g id = "ID000010" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#000000" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "540.711,303.276 540.711,136.482 299.600,136.482 299.600,298.537 "/>
+</g>
+<g id = "ID000011" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#000000" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "420.156,136.482 420.156,48.468 656.444,48.468 656.444,498.400 "/>
+</g>
+<g id = "ID000012" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#ff0000" stroke-width = "2.667pt" stroke-dasharray = "10.667,10.667" stroke-opacity = "1.000" points = "97.067,452.760 675.733,452.760 "/>
+</g>
+  <clipPath id = "ID000001">
+    <rect x = "2.674" y = "22.456" width = "674.392" height = "536.879"/>
   </clipPath>
-      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="2.0pt" stroke-opacity="1.00" stroke-dasharray="none" points="97.067,498.400 675.733,498.400 675.733,42.000 97.067,42.000 "/>
-      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="2.0pt" stroke-opacity="1.00" stroke-dasharray="none" points="97.067,42.000 675.733,42.000 675.733,42.000 97.067,42.000 "/>
-      <polygon fill="#ffffff" fill-opacity="1.00" stroke="none" stroke-width="2.0pt" stroke-opacity="1.00" stroke-dasharray="none" points="97.067,498.400 97.067,498.400 97.067,42.000 97.067,42.000 "/>
-    <g>
-<g id="ID000002" clip-path="url(#ID000001)" >
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="116.35556,498.40000 116.35556,497.60563 193.51111,497.60563 193.51111,498.40000 "/>
-</g>
-<g id="ID000003" clip-path="url(#ID000001)" >
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="154.93333,497.60563 154.93333,486.45839 270.66667,486.45839 270.66667,498.40000 "/>
-</g>
-<g id="ID000004" clip-path="url(#ID000001)" >
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="347.82222,498.40000 347.82222,397.28599 424.97778,397.28599 424.97778,498.40000 "/>
-</g>
-<g id="ID000005" clip-path="url(#ID000001)" >
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="502.13333,498.40000 502.13333,303.27553 579.28889,303.27553 579.28889,498.40000 "/>
-</g>
-<g id="ID000006" clip-path="url(#ID000001)" >
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="386.40000,397.28599 386.40000,298.53675 212.80000,298.53675 212.80000,486.45839 "/>
-</g>
-<g id="ID000007" clip-path="url(#ID000001)" >
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="540.71111,303.27553 540.71111,136.48208 299.60000,136.48208 299.60000,298.53675 "/>
-</g>
-<g id="ID000008" clip-path="url(#ID000001)" >
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="420.15556,136.48208 420.15556,48.46778 656.44444,48.46778 656.44444,498.40000 "/>
-</g>
-<g id="ID000009" clip-path="url(#ID000001)" >
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#ff0000" stroke-width="2.0pt" stroke-dasharray="8.0,2.0" stroke-opacity="1.00" points="97.06667,452.76000 675.73333,452.76000 "/>
-</g>
-<g id="ID000010" >
-  <g transform="translate(40.400,272.202)">
-    <g transform="rotate(-90.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-after-edge" font-size="21pt" fill="#000000" ><tspan>Dissimilarity (Spearman correlation)</tspan></text>
-    </g>
-  </g>
-</g>
-<g id="ID000011" >
-</g>
-<g id="ID000012" >
-</g>
     </g>
     <g>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="116.35556,498.40000 116.35556,507.08000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="193.51111,498.40000 193.51111,507.08000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="270.66667,498.40000 270.66667,507.08000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="347.82222,498.40000 347.82222,507.08000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="424.97778,498.40000 424.97778,507.08000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="502.13333,498.40000 502.13333,507.08000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="579.28889,498.40000 579.28889,507.08000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="656.44444,498.40000 656.44444,507.08000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="97.06667,498.40000 675.73333,497.86667 "/>
-  <g transform="translate(116.356,514.374)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="21pt" fill="#000000" ><tspan>Cv<tspan style="baseline-shift:sub;font-size:65%%">2</tspan></tspan></text>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "116.356,498.400 116.356,504.187 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "193.511,498.400 193.511,504.187 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "270.667,498.400 270.667,504.187 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "347.822,498.400 347.822,504.187 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "424.978,498.400 424.978,504.187 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "502.133,498.400 502.133,504.187 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "579.289,498.400 579.289,504.187 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "656.444,498.400 656.444,504.187 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "97.067,498.400 675.733,498.400 "/>
+  <g transform = "translate(116.356,512.092)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "middle" dominant-baseline = "text-before-edge" font-size = "21.333pt" fill = "#262626" ><tspan>Cv<tspan style = "baseline-shift:sub;font-size:65%%">2</tspan></tspan></text>
     </g>
   </g>
-  <g transform="translate(193.511,514.374)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="21pt" fill="#000000" ><tspan>Lv</tspan></text>
+  <g transform = "translate(193.511,512.092)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "middle" dominant-baseline = "text-before-edge" font-size = "21.333pt" fill = "#262626" ><tspan>Lv</tspan></text>
     </g>
   </g>
-  <g transform="translate(270.667,514.374)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="21pt" fill="#000000" ><tspan>LvR</tspan></text>
+  <g transform = "translate(270.667,512.092)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "middle" dominant-baseline = "text-before-edge" font-size = "21.333pt" fill = "#262626" ><tspan>LvR</tspan></text>
     </g>
   </g>
-  <g transform="translate(347.822,514.374)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="21pt" fill="#000000" ><tspan>FF</tspan></text>
+  <g transform = "translate(347.822,512.092)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "middle" dominant-baseline = "text-before-edge" font-size = "21.333pt" fill = "#262626" ><tspan>FF</tspan></text>
     </g>
   </g>
-  <g transform="translate(424.978,514.374)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="21pt" fill="#000000" ><tspan>Cv</tspan></text>
+  <g transform = "translate(424.978,512.092)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "middle" dominant-baseline = "text-before-edge" font-size = "21.333pt" fill = "#262626" ><tspan>Cv</tspan></text>
     </g>
   </g>
-  <g transform="translate(502.133,514.374)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="21pt" fill="#000000" ><tspan>pk2trgh</tspan></text>
+  <g transform = "translate(502.133,512.092)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "middle" dominant-baseline = "text-before-edge" font-size = "21.333pt" fill = "#262626" ><tspan>P2T</tspan></text>
     </g>
   </g>
-  <g transform="translate(579.289,514.374)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="21pt" fill="#000000" ><tspan>t4rplzn</tspan></text>
+  <g transform = "translate(579.289,512.092)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "middle" dominant-baseline = "text-before-edge" font-size = "21.333pt" fill = "#262626" ><tspan>T4R</tspan></text>
     </g>
   </g>
-  <g transform="translate(656.444,514.374)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="middle" dominant-baseline="text-before-edge" font-size="21pt" fill="#000000" ><tspan>FR</tspan></text>
+  <g transform = "translate(656.444,512.092)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "middle" dominant-baseline = "text-before-edge" font-size = "21.333pt" fill = "#262626" ><tspan>FR</tspan></text>
     </g>
   </g>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="97.06667,498.40000 88.38667,498.40000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="97.06667,407.12000 88.38667,407.12000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="97.06667,315.84000 88.38667,315.84000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="97.06667,224.56000 88.38667,224.56000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="97.06667,133.28000 88.38667,133.28000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="97.06667,42.00000 88.38667,42.00000 "/>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="97.06667,498.40000 97.06667,41.46667 "/>
-  <g transform="translate(76.813,498.400)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="21pt" fill="#000000" ><tspan>0</tspan></text>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "97.067,498.400 91.280,498.400 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "97.067,407.120 91.280,407.120 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "97.067,315.840 91.280,315.840 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "97.067,224.560 91.280,224.560 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "97.067,133.280 91.280,133.280 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "97.067,42.000 91.280,42.000 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "97.067,498.400 97.067,42.000 "/>
+  <g transform = "translate(79.707,498.400)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "end" dominant-baseline = "central" font-size = "21.333pt" fill = "#262626" ><tspan>0</tspan></text>
     </g>
   </g>
-  <g transform="translate(76.813,407.120)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="21pt" fill="#000000" ><tspan>0.2</tspan></text>
+  <g transform = "translate(79.707,407.120)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "end" dominant-baseline = "central" font-size = "21.333pt" fill = "#262626" ><tspan>0.2</tspan></text>
     </g>
   </g>
-  <g transform="translate(76.813,315.840)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="21pt" fill="#000000" ><tspan>0.4</tspan></text>
+  <g transform = "translate(79.707,315.840)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "end" dominant-baseline = "central" font-size = "21.333pt" fill = "#262626" ><tspan>0.4</tspan></text>
     </g>
   </g>
-  <g transform="translate(76.813,224.560)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="21pt" fill="#000000" ><tspan>0.6</tspan></text>
+  <g transform = "translate(79.707,224.560)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "end" dominant-baseline = "central" font-size = "21.333pt" fill = "#262626" ><tspan>0.6</tspan></text>
     </g>
   </g>
-  <g transform="translate(76.813,133.280)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="21pt" fill="#000000" ><tspan>0.8</tspan></text>
+  <g transform = "translate(79.707,133.280)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "end" dominant-baseline = "central" font-size = "21.333pt" fill = "#262626" ><tspan>0.8</tspan></text>
     </g>
   </g>
-  <g transform="translate(76.813,42.000)">
-    <g transform="rotate(-0.0)">
-      <text x="0.000" y="0.000" font-family="Arial" text-anchor="end" dominant-baseline="central" font-size="21pt" fill="#000000" ><tspan>1</tspan></text>
+  <g transform = "translate(79.707,42.000)">
+    <g transform = "rotate(-0.000)">
+      <text x = "0.000" y = "0.000" font-family = "Arial" text-anchor = "end" dominant-baseline = "central" font-size = "21.333pt" fill = "#262626" ><tspan>1</tspan></text>
     </g>
   </g>
-      <polyline fill="none" vector-effect="non-scaling-stroke" stroke="#000000" stroke-width="2.0pt" stroke-dasharray="none" stroke-opacity="1.00" points="97.06667,498.40000 97.06667,498.40000 "/>
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "miter" stroke = "#262626" stroke-width = "2.667pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "97.067,498.400 97.067,498.400 "/>
     </g>
   </g>
   </g>

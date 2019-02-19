@@ -8,13 +8,13 @@ This toolbox is free but copyrighted by Salva Ardid, and distributed under the t
 
 Should you find the toolbox interesting, please try it in your data. Just ensure that any publication using this code properly cites the original manuscript and links to this repository:
 
-> \- Ardid, Vinck, Kaping, Marquez, Everling, Womelsdorf (2015) Mapping of functionally characterized cell classes onto canonical circuit operations in primate prefrontal cortex. [*J. Neurosci.*, 35: 2975-91](http://130.63.84.98/sardid/common/pdfs/ardid_jn2015.pdf)
+> \- Ardid, Vinck, Kaping, Marquez, Everling, Womelsdorf (2015) Mapping of functionally characterized cell classes onto canonical circuit operations in primate prefrontal cortex. [*J. Neurosci.*, 35: 2975-91](http://www.jneurosci.org/content/35/7/2975)
 
 > \- [https://bitbucket.org/sardid/clusteringanalysis](https://bitbucket.org/sardid/clusteringmanalysis)
 
 Copyright (C) 2014-2015, Salva Ardid.
 
-## Intro
+## Information
 
 The goal of this code is to identify distinct cell classes based on their electrophysiological features by using unbiased clustering techniques. Thus, for each neuron, we utilized two measures of the action potential waveform (peak to trough duration and time for repolarization - defined as the time in which the voltage of the action potential decays 25% of its amplitude), and measures of its firing properties (mean firing rate, coefficient of variation, Fano factor, as well as local variability measures, such as the local variation and Cv<sub>2</sub>).
 
@@ -30,6 +30,6 @@ The goal of this code is to identify distinct cell classes based on their electr
 
 6. Finally, to ensure that all these results were reliable, we developed two validation analysis. First, we repeated the same clustering procedure inside a permutation analysis in which neurons were randomly selected from the dataset (**main_validation.m**) and compared it to a random assignation of neurons to clusters. Second, we did the same approach but this time separating the neurons in two groups according to the monkey from which they were recorded (**main_validation_monkey.m**). Both analyses reported a high fidelity with respect to our main clustering procedure.
 
-## Tutorial for the Clustering Analysis Repository
+## >>> Code dependencies
 
-Specific details on how to use the repository will be added shortly.
+The code of the waveform analysis calls **fig2svg** to export figures to svg files. More information about it [here](https://github.com/kupiqu/fig2svg).

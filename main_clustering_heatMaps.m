@@ -23,7 +23,7 @@ axis tight
 axis off
 filename=[resultsdir,'/rawHeatMap'];
 svgFile=[filename,'.svg'];
-plot2svg(svgFile);
+fig2svg(svgFile);
 
 % resorting data according to the dendrogram of the k-means clustering
 numClusters=7;
@@ -62,7 +62,7 @@ axis tight
 axis off
 filename=[resultsdir,'/colorMap'];
 svgFile=[filename,'.svg'];
-plot2svg(svgFile);
+fig2svg(svgFile);
 
 figure('color','none','visible','off')
 hold on
@@ -77,7 +77,7 @@ axis tight
 axis off
 filename=[resultsdir,'/sortedHeatMap'];
 svgFile=[filename,'.svg'];
-plot2svg(svgFile);
+fig2svg(svgFile);
 
 figure('color','none','visible','off')
 hexcolors={'1D0091','007BFF','03FC5E','FFFF00','FFAE00','FF4000','000000','A8100D'};
@@ -95,7 +95,7 @@ axis tight
 axis off
 filename=[resultsdir,'/clusterColors'];
 svgFile=[filename,'.svg'];
-plot2svg(svgFile);
+fig2svg(svgFile);
 
 figure('color','none','visible','off')
 hold on
@@ -112,6 +112,6 @@ xlim([0 7.5]);
 axis off
 filename=[resultsdir,'/cellTypeColors'];
 svgFile=[filename,'.svg'];
-plot2svg(svgFile);
+fig2svg(svgFile);
 
 save(matfile,'numNeurons','numMeasures','numCellType','clustOrder','hexcolors','-append');

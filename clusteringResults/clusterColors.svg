@@ -1,54 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg preserveAspectRatio="xMinYMin meet" width="100%" height="100%" viewBox="0 0 700.000 525.000"  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <desc>Matlab Figure Converted by PLOT2SVG written by Juerg Schwizer</desc>
-  <g id="topgroup">
-  <g id ="ID000000">
-  <clipPath id="ID000001">
-    <rect x="105.000" y="68.250" width="560.000" height="367.500"/>
-  </clipPath>
+<?xml version = "1.0" encoding = "utf-8" standalone = "no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg preserveAspectRatio = "xMinYMin meet" width = "100%" height = "100%" fill = "none" viewBox = "0 0 373.333 280.000"  version = "1.1" xmlns = "http://www.w3.org/2000/svg" xmlns:xlink = "http://www.w3.org/1999/xlink">
+  <desc>Matlab Figure Converted by FIG2SVG</desc>
+  <g id = "topgroup">
+  <rect x = "0" y = "0" width = "373.333" height = "280.000" fill = "#ffffff" stroke = "none" />
+  <g id  = "ID000000">
     <g>
-<g id="ID000002" clip-path="url(#ID000001)" >
-      <polyline fill="none" stroke="#1d0091" stroke-width="5.0pt" stroke-dasharray="none" points="385.000,435.750 385.000,325.035 "/>
-<g>
+<g id = "ID000002" >
 </g>
+<g id = "ID000003" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#1d0091" stroke-width = "5.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "193.200,249.200 193.200,180.451 "/>
 </g>
-<g id="ID000003" clip-path="url(#ID000001)" >
-      <polyline fill="none" stroke="#007bff" stroke-width="5.0pt" stroke-dasharray="none" points="385.000,325.035 385.000,239.440 "/>
-<g>
+<g id = "ID000004" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#007bff" stroke-width = "5.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "193.200,180.451 193.200,127.301 "/>
 </g>
+<g id = "ID000005" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#03fc5e" stroke-width = "5.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "193.200,127.301 193.200,107.081 "/>
 </g>
-<g id="ID000004" clip-path="url(#ID000001)" >
-      <polyline fill="none" stroke="#03fc5e" stroke-width="5.0pt" stroke-dasharray="none" points="385.000,239.440 385.000,206.877 "/>
-<g>
+<g id = "ID000006" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#ffff00" stroke-width = "5.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "193.200,107.081 193.200,74.150 "/>
 </g>
+<g id = "ID000007" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#ffae00" stroke-width = "5.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "193.200,74.150 193.200,41.798 "/>
 </g>
-<g id="ID000005" clip-path="url(#ID000001)" >
-      <polyline fill="none" stroke="#ffff00" stroke-width="5.0pt" stroke-dasharray="none" points="385.000,206.877 385.000,153.845 "/>
-<g>
+<g id = "ID000008" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#ff4000" stroke-width = "5.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "193.200,41.798 193.200,33.132 "/>
 </g>
+<g id = "ID000009" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#000000" stroke-width = "5.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "193.200,33.132 193.200,30.821 "/>
 </g>
-<g id="ID000006" clip-path="url(#ID000001)" >
-      <polyline fill="none" stroke="#ffae00" stroke-width="5.0pt" stroke-dasharray="none" points="385.000,153.845 385.000,101.744 "/>
-<g>
+<g id = "ID000010" clip-path = "url(#ID000001)" >
+      <polyline fill = "none" stroke-linecap = "square" stroke-linejoin = "round" stroke = "#a8100d" stroke-width = "5.000pt" stroke-dasharray = "none" stroke-opacity = "1.000" points = "193.200,30.821 193.200,21.000 "/>
 </g>
-</g>
-<g id="ID000007" clip-path="url(#ID000001)" >
-      <polyline fill="none" stroke="#ff4000" stroke-width="5.0pt" stroke-dasharray="none" points="385.000,101.744 385.000,87.788 "/>
-<g>
-</g>
-</g>
-<g id="ID000008" clip-path="url(#ID000001)" >
-      <polyline fill="none" stroke="#000000" stroke-width="5.0pt" stroke-dasharray="none" points="385.000,87.788 385.000,84.066 "/>
-<g>
-</g>
-</g>
-<g id="ID000009" clip-path="url(#ID000001)" >
-      <polyline fill="none" stroke="#a8100d" stroke-width="5.0pt" stroke-dasharray="none" points="385.000,84.066 385.000,68.250 "/>
-<g>
-</g>
-</g>
-<g id="ID000010" >
-</g>
+  <clipPath id = "ID000001">
+    <rect x = "48.533" y = "21.000" width = "289.333" height = "228.200"/>
+  </clipPath>
     </g>
   </g>
   </g>

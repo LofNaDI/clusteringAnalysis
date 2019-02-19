@@ -101,7 +101,7 @@ set(gca,'xTick',1:relNumCluster,'yTick',0:20:100)
 set(gca,'XTickLabel',{'B1','B2','B3','B4','N1','N2','N4'})
 set(gca,'fontSize',16,'LineWidth',1,'TickDir','out','Box','off')
 filename=[figsdir,'/percMatchedCells_monkeys.svg'];
-plot2svg(filename);
+fig2svg(filename);
 
 % 2. difference of not assoc minus assoc cluster distances: mean and ste
 mi.distAssocClusters = nan(1,relNumCluster);
@@ -140,7 +140,7 @@ set(gca,'xTick',1:relNumCluster,'yTick',0:0.1:0.5)
 set(gca,'XTickLabel',{'B1','B2','B3','B4','N1','N2','N4'})
 set(gca,'fontSize',16,'LineWidth',1,'TickDir','out','Box','off')
 filename=[figsdir,'/diffDistanceBetweenClusters_monkeys.svg'];
-plot2svg(filename);
+fig2svg(filename);
 
 % total elapsed time in the analysis
 elapsedTime=toc(timeId);

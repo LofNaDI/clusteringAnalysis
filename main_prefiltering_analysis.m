@@ -56,7 +56,7 @@ plot([min(xl)-0.25 max(xl)+0.25],[cutoff cutoff],'r--','lineWidth',lineWidth)
 axis([min(xl)-0.25 max(xl)+0.25 0 1])
 set(gca,'fontSize',fontSize,'lineWidth',lineWidth,'TickDir','out','Box','off','YTick',0:.2:1)
 ylabel('Dissimilarity (Spearman correlation)','fontSize',fontSize);
-plot2svg([suffix,'/dataDendrogram.svg']);
+fig2svg([suffix,'/dataDendrogram.svg']);
 % close all;
 
 % variables not highly correlated (all should be considered)
@@ -123,7 +123,7 @@ xlabels = labelsData(indSortedVar_normData);
 set(gca,'XTickLabel',xlabels)
 ylabel('Variance explained (%)','fontSize',fontSize)
 filename=[suffix,'/dataVariance.svg'];
-plot2svg(filename);
+fig2svg(filename);
 % close all;
 
 % matrix of correlations

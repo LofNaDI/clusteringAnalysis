@@ -57,7 +57,7 @@ axis off
 ylabel('Neurons','fontsize',16);
 xlabel('Distance','fontsize',16);
 set(gca,'fontSize',16,'LineWidth',1,'TickDir','out','Box','off','XTick',0:.2:1,'YTick',[])
-plot2svg([resultsdir,'/dendrogram_',type,'_centroids.svg'])
+fig2svg([resultsdir,'/dendrogram_',type,'_centroids.svg'])
 
 %% matching the dendrogram with the results of the kmeans to determine the cluster ordering
 %% doing so by matching the number of elements (warning!!! it is not reliable if two or more clusters have the same number of elements)

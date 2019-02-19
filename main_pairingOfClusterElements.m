@@ -100,7 +100,7 @@ for numClusters=numC
       set(hc1,'LineStyle','none');
       colormap copper
       set(gca,'fontSize',16,'LineWidth',1,'TickDir','out','Box','off')
-      plot2svg([resultsdir,'/',type,'_sparsePairwiseClusterAssociation_',num2str(numClusters),'_clustersImposed.svg']);
+      fig2svg([resultsdir,'/',type,'_sparsePairwiseClusterAssociation_',num2str(numClusters),'_clustersImposed.svg']);
     end
 
     s=figure('color','none','visible','off');
@@ -110,7 +110,7 @@ for numClusters=numC
     set(hc2,'LineStyle','none');
     colormap copper
     set(gca,'fontSize',16,'LineWidth',1,'TickDir','out','Box','off')
-    plot2svg([resultsdir,'/',type,'_reorderedPairwiseClusterAssociation_',num2str(numClusters),'_clustersImposed.svg']);
+    fig2svg([resultsdir,'/',type,'_reorderedPairwiseClusterAssociation_',num2str(numClusters),'_clustersImposed.svg']);
 
     pairwiseClusterReordered=triu(symPairwiseClusterMod(reorderedSymPairwiseCluster,reorderedSymPairwiseCluster));
 

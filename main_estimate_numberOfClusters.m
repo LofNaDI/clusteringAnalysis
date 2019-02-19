@@ -97,7 +97,7 @@ for i=1:9
     uistack(p,'bottom')
 end
 linkaxes(ax,'x');
-plot2svg([figsdir,'/numberOfClustersEstimate_',type,'.svg']);
+fig2svg([figsdir,'/numberOfClustersEstimate_',type,'.svg']);
 
 % total elapsed time in the analysis
 elapsedTime=toc(timeId);

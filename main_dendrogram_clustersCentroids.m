@@ -50,10 +50,33 @@ Cth = t(size(Z,1)+2-k);
 
 figure('color','none','visible','off');
 set(gca,'layer','top','color','none')
+
+% colors
+hexcolors={'1D0091','007BFF','03FC5E','FFFF00','FFAE00','FF4000','000000','A8100D'};
+% alternatively one can use linspecer to make this automatically distinguishable for up to 12 clusters:
+% colorOrder = linspecer(k,'qualitative');
+colorOrder=zeros(length(hexcolors),3);
+for i=1:length(hexcolors)
+  colorOrder(i,:) = rgbconv(hexcolors{i});
+end
+
+% threshold color
+t = sort(Z(:,3));
+Cth = t(size(Z,1)+2-k);
+
 [h,~,outperm] = dendrogram(Z,0,'ColorThreshold',Cth,'orientation','left');
-hold on
+hcolors = cell2mat(get(h,'Color'));
+hcolors_unique = unique(hcolors,'row','stable');
+for ii = 1:size(hcolors_unique,1)-1
+  iMatch = ismember(hcolors,hcolors_unique(ii,:),'rows');
+  hcolors(iMatch,:) = ones(sum(iMatch),1)*colorOrder(ii,:);
+end
+for ii = 1:size(hcolors)
+  h(ii).Color = hcolors(ii,:);
+end
 set(h,'LineWidth',1)
 axis off
+hold on
 ylabel('Neurons','fontsize',16);
 xlabel('Distance','fontsize',16);
 set(gca,'fontSize',16,'LineWidth',1,'TickDir','out','Box','off','XTick',0:.2:1,'YTick',[])
@@ -81,4 +104,4 @@ fig2svg([resultsdir,'/dendrogram_',type,'_centroids.svg'])
 
 clustOrder = idx(unique(c(outperm)','stable'));
 
-save(matfile,'clustFilt','clustOrder','-append');
+save(matfile,'clustFilt','clustOrder','colorOrder','-append');

@@ -80,12 +80,7 @@ svgFile=[filename,'.svg'];
 fig2svg(svgFile);
 
 figure('color','none','visible','off')
-hexcolors={'1D0091','007BFF','03FC5E','FFFF00','FFAE00','FF4000','000000','A8100D'};
-colororder=zeros(length(hexcolors),3);
-for i=1:length(hexcolors)
-    colororder(i,:) = rgbconv(hexcolors{i});
-end
-set(gca, 'ColorOrder', colororder);
+set(gca, 'ColorOrder', colorOrder);
 hold on
 set(gca,'layer','top','color','none')
 linesx=ones(length(clustOrder),2);
@@ -114,4 +109,4 @@ filename=[resultsdir,'/cellTypeColors'];
 svgFile=[filename,'.svg'];
 fig2svg(svgFile);
 
-save(matfile,'numNeurons','numMeasures','numCellType','clustOrder','hexcolors','-append');
+save(matfile,'numNeurons','numMeasures','numCellType','clustOrder','-append');

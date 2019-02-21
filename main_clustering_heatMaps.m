@@ -1,5 +1,5 @@
 
-clear;
+clear all;
 close all;
 clc;
 
@@ -109,4 +109,4 @@ filename=[resultsdir,'/cellTypeColors'];
 svgFile=[filename,'.svg'];
 fig2svg(svgFile);
 
-save(matfile,'numNeurons','numMeasures','numCellType','clustOrder','-append');
+save(matfile,'numNeurons','numMeasures','numCellType','-append');

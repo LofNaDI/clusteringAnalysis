@@ -1,5 +1,5 @@
 
-clear;
+clear all;
 close all;
 clc;
 
@@ -44,10 +44,6 @@ Y = pdist(Ap);
 Z = linkage(Y,'average');
 c = cluster(Z,'maxclust',k);
 
-% threshold color
-t = sort(Z(:,3));
-Cth = t(size(Z,1)+2-k);
-
 figure('color','none','visible','off');
 set(gca,'layer','top','color','none')
 
@@ -64,15 +60,25 @@ end
 t = sort(Z(:,3));
 Cth = t(size(Z,1)+2-k);
 
-[h,~,outperm] = dendrogram(Z,0,'ColorThreshold',Cth,'orientation','left');
+[h,~,outperm] = dendrogram(Z, 0,'ColorThreshold',Cth,'orientation','left');
 hcolors = cell2mat(get(h,'Color'));
-hcolors_unique = unique(hcolors,'row','stable');
-for ii = 1:size(hcolors_unique,1)-1
-  iMatch = ismember(hcolors,hcolors_unique(ii,:),'rows');
-  hcolors(iMatch,:) = ones(sum(iMatch),1)*colorOrder(ii,:);
-end
-for ii = 1:size(hcolors)
-  h(ii).Color = hcolors(ii,:);
+hy = cell2mat(get(h,'YData'));
+hx = cell2mat(get(h,'XData'));
+
+% sorted index to colored branches
+[~,hy_order] = sort(max([hy(1:end-k+1,1) hy(1:end-k+1,end)],[],2));
+
+% replacing colors
+iColor = 1;
+colorGroup = hcolors(1,:);
+for kk = 1:numel(hy_order)
+  % checking if we are in a new color branch
+  if ~ismember(colorGroup,hcolors(hy_order(kk),:),'rows')
+    colorGroup = [colorGroup;hcolors(hy_order(kk),:)];
+    iColor = iColor + 1;
+  end
+  % replacing each branch color by the desired color sequence from colorOrder
+  set(h(hy_order(kk)), 'Color', colorOrder(iColor,:));
 end
 set(h,'LineWidth',1)
 axis off

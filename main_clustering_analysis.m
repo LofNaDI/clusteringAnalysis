@@ -1,7 +1,7 @@
 
-clc;
-clear;
+clear all;
 close all;
+clc;
 
 %%%% This is work in progress to ease the use of the Clustering Analysis Toolbox and make it compatible with Matlab and GNU Octave %%%%
 

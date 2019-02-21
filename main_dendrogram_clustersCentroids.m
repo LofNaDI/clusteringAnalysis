@@ -63,7 +63,6 @@ Cth = t(size(Z,1)+2-k);
 [h,~,outperm] = dendrogram(Z, 0,'ColorThreshold',Cth,'orientation','left');
 hcolors = cell2mat(get(h,'Color'));
 hy = cell2mat(get(h,'YData'));
-hx = cell2mat(get(h,'XData'));
 
 % sorted index to colored branches
 [~,hy_order] = sort(max([hy(1:end-k+1,1) hy(1:end-k+1,end)],[],2));

@@ -32,4 +32,5 @@ The goal of this code is to identify distinct cell classes based on their electr
 
 ## >>> Code dependencies
 
-The code of the waveform analysis calls **fig2svg** to export figures to svg files. More information about it [here](https://github.com/kupiqu/fig2svg).
+- The code of the waveform analysis calls **fig2svg** to export figures to svg files. More information about it [here](https://github.com/kupiqu/fig2svg).
+- The code of the clustering analysis calls **sparsePCA** to rank variables. More information about it [here](https://github.com/tbuehler/sparsePCA).

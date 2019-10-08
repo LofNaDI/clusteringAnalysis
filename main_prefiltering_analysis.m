@@ -77,6 +77,8 @@ var_normData = var(normData);
 [sortedVar_normData,indSortedVar_normData] = sort(var_normData,2,'descend');
 explainedVar_normData = 100*sortedVar_normData/sum(sortedVar_normData);
 cumExplainedVar_normData = cumsum(explainedVar_normData);
+labels_sortedVar_normData = labelsData(indSortedVar_normData);
+% disp(labels_sortedVar_normData);
 
 % variance cutoff 90%, keeping only measurements that together account for >=90% of the variance
 var_cutoff = 90;
@@ -86,6 +88,31 @@ rawData4Cluster = rawData4Cluster(:,1:indcutoff);
 normData4Cluster = normData(:,indSortedVar_normData);
 normData4Cluster = normData4Cluster(:,1:indcutoff);
 normData4Cluster_labels = labels(indSortedVar_normData);
+normData4Cluster_labels = normData4Cluster_labels(1:indcutoff);
+explainedVar_normData4Cluster = explainedVar_normData(1:indcutoff);
+cumExplainedVar_normData4Cluster = cumsum(explainedVar_normData4Cluster);
+
+% more elaborated method using sparsePCA %
+
+cardinality = 1; % each dimension independently
+num_comp = size(normData, 2); % all available variables
+num_runs = 100;
+verbosity = 0;
+[F, adj_var, cum_var] = sparsePCA(normData, cardinality, num_comp, num_runs, verbosity);
+[indSortedVar_normData_sPCA, ~] = find(F);
+explainedVar_normData = 100*adj_var'/sum(adj_var);
+cumExplainedVar_normData = cumsum(explainedVar_normData);
+labels_sortedVar_normData_sPCA = labelsData(indSortedVar_normData_sPCA);
+% disp(labels_sortedVar_normData_sPCA);
+
+% variance cutoff 90%, keeping only measurements that together account for >=90% of the variance
+var_cutoff = 90;
+indcutoff = find(cumExplainedVar_normData >= var_cutoff,1);
+rawData4Cluster = rawData(:,indSortedVar_normData_sPCA);
+rawData4Cluster = rawData4Cluster(:,1:indcutoff);
+normData4Cluster = normData(:,indSortedVar_normData_sPCA);
+normData4Cluster = normData4Cluster(:,1:indcutoff);
+normData4Cluster_labels = labels(indSortedVar_normData_sPCA);
 normData4Cluster_labels = normData4Cluster_labels(1:indcutoff);
 explainedVar_normData4Cluster = explainedVar_normData(1:indcutoff);
 cumExplainedVar_normData4Cluster = cumsum(explainedVar_normData4Cluster);
